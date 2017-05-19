@@ -22,3 +22,10 @@ Solutions and tests for code katas
 - **Module**: `no_zeros_for_heros.py`
 - **Tests**: `test_no_zeros_for_heros.py`
 - **URL**: [challenge url](https://www.codewars.com/kata/no-zeros-for-heros/python)
+
+
+**Scrabble best word (6th kyu)**
+
+- **Module**: `scrabble_best_practices.py`
+- **Tests**: `test_scrabble_best_practices.py`
+- **URL**: [challenge url](https://www.codewars.com/kata/scrabble-best-word/python)
