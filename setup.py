@@ -15,8 +15,8 @@ setup(
     author='Morgan Nomura',
     author_email='morganelle@gmail.com',
     license='MIT',
-    py_modules=['where_my_anagrams_at'],
-    package_dir={'': 'anagrams'},
+    py_modules=['summarize_ranges'],
+    package_dir={'': 'summarize-ranges'},
     install_requires=dependences,
     extras_require=extra_packages
 )

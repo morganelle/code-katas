@@ -8,3 +8,9 @@ Solutions and tests for code katas
 - **Module**: `where_my_anagrams_at.py`
 - **Tests**: `test_where_my_anagrams_at.py`
 - **URL**: [challenge url](https://www.codewars.com/kata/where-my-anagrams-at)
+
+**Summarize ranges (6th kyu)**
+
+- **Module**: `summarize_ranges.py`
+- **Tests**: `test_summarize_ranges.py`
+- **URL**: [challenge url](https://www.codewars.com/kata/summarize-ranges)
