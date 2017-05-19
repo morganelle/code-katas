@@ -99,3 +99,7 @@ ENV/
 
 # mypy
 .mypy_cache/
+
+# sample directories
+sample1/
+sample2/
