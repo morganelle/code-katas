@@ -15,8 +15,8 @@ setup(
     author='Morgan Nomura',
     author_email='morganelle@gmail.com',
     license='MIT',
-    py_modules=['mod2'],
-    package_dir={'': 'sample2'},
+    py_modules=['where_my_anagrams_at'],
+    package_dir={'': 'anagrams'},
     install_requires=dependences,
     extras_require=extra_packages
 )
