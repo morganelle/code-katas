@@ -15,8 +15,8 @@ setup(
     author='Morgan Nomura',
     author_email='morganelle@gmail.com',
     license='MIT',
-    py_modules=['summarize_ranges'],
-    package_dir={'': 'summarize-ranges'},
+    py_modules=['no_zeros_for_heros'],
+    package_dir={'': 'no-zeros-for-heros'},
     install_requires=dependences,
     extras_require=extra_packages
 )
