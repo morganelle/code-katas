@@ -37,8 +37,16 @@ Solutions and tests for code katas
 - **Tests**: `test_pairing-brackets.py`
 - **URL**: [challenge url](https://www.codewars.com/kata/pairing-brackets/python)
 
+
 **Paul's Misery (7th kyu)**
 
 - **Module**: `pauls_misery.py`
 - **Tests**: `test_pauls_misery.py`
 - **URL**: [challenge url](http://www.codewars.com/kata/pauls-misery/train/python)
+
+
+**Chess Fun #1: Chess Board Cell Color (6th kyu)**
+
+- **Module**: `chess_fun.py`
+- **Tests**: n/a
+- **URL**: [challenge url](https://www.codewars.com/kata/chess-fun-number-1-chess-board-cell-color/python)
