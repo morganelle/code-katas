@@ -29,3 +29,16 @@ Solutions and tests for code katas
 - **Module**: `scrabble_best_practices.py`
 - **Tests**: `test_scrabble_best_practices.py`
 - **URL**: [challenge url](https://www.codewars.com/kata/scrabble-best-word/python)
+
+
+**Pairing brackets (6th kyu)**
+
+- **Module**: `pairing-brackets.py`
+- **Tests**: `test_pairing-brackets.py`
+- **URL**: [challenge url](https://www.codewars.com/kata/pairing-brackets/python)
+
+**Paul's Misery (7th kyu)**
+
+- **Module**: `pauls_misery.py`
+- **Tests**: `test_pauls_misery.py`
+- **URL**: [challenge url](http://www.codewars.com/kata/pauls-misery/train/python)

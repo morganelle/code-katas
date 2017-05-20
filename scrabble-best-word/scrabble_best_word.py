@@ -14,20 +14,15 @@ def get_best_word(points, words):
 
 Instructions
 ----------------------------------------------------------------------
-You're playing to scrabble. But counting points is hard.
+Write a function which outputs the positions of matching bracket pairs.
+The output should be a dictionary with keys the positions of the open brackets
+'(' and values the corresponding positions of the closing brackets ')'.
 
-You decide to create a little script to calculate the best possible value.
+For example: input = "(first)and(second)" should return {0:6, 10:17}
 
-The function takes two arguments :
-
-points : an array of integer representing for each letters from A to Z the
-points that it pays words : an array of strings, uppercase
-
-You must return the index of the shortest word which realize the highest
-score. When there are two or more words having same score, then the index
-of the smallest word should be returned
-
-If also the length is the same, then return the index of the first one.
+If brackets cannot be paired or if the order is invalid (e.g. ')(')
+return False. In this kata we care only about the positions of round brackets
+'()', other types of brackets should be ignored.
 
 
 """

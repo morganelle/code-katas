@@ -15,8 +15,8 @@ setup(
     author='Morgan Nomura',
     author_email='morganelle@gmail.com',
     license='MIT',
-    py_modules=['scrabble_best_word'],
-    package_dir={'': 'scrabble-best-word'},
+    py_modules=['pauls_misery'],
+    package_dir={'': 'pauls-misery'},
     install_requires=dependences,
     extras_require=extra_packages
 )
