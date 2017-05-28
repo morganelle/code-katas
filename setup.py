@@ -15,8 +15,8 @@ setup(
     author='Morgan Nomura',
     author_email='morganelle@gmail.com',
     license='MIT',
-    py_modules=['pauls_misery'],
-    package_dir={'': 'pauls-misery'},
+    py_modules=['parenthetics'],
+    package_dir={'': 'src'},
     install_requires=dependences,
     extras_require=extra_packages
 )
