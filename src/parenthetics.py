@@ -6,7 +6,7 @@ def eval_parens(input):
     """Evaluate whether a string has balanced, open, or closed parens."""
     print('input type:', type(input))
     if type(input) != str:
-        assert TypeError('Please enter a string.')
+        raise TypeError('Please enter a string.')
     if len(input) < 1 or '(' not in input or ')' not in input:
         assert ValueError('Please enter a string with one or more characters, at least one of which is a an opening or closing parentheses.')
     parens_stack = Stack()
