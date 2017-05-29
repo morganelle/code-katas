@@ -44,8 +44,10 @@ Solutions and tests for code katas
 - **Tests**: `test_pauls_misery.py`
 - **URL**: [challenge url](http://www.codewars.com/kata/pauls-misery/train/python)
 
+
 **Proper Parenthetics***
 
 - **Module**: `parenthetics.py`
 - **Tests**: `test_parenthetics.py`
 - **URL**: [challenge url](https://codefellows.github.io/sea-python-401d6/assignments/proper_parenthetics.html)
+- **Notes**: I used the stack data structure on this problem. I decided to rebuild it instead of using what we'd built this week because I wanted extra practice. I solved a similar kata on Day of Code without using the stack (Pairing Brackets), and I think this solution is a lot more robust and interesting.
