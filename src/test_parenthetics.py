@@ -9,7 +9,12 @@ PARENS_TABLE = [
     ('hello i am a cake)', -1),
     ('hello (i am a) cake', 0),
     ('((())', 1),
-    ('))((', -1)
+    ('))((', -1),
+    ('''
+        This is ( a )
+        multiline
+        string ()
+        ''', 0)
 ]
 
 
@@ -39,3 +44,10 @@ def test_arg_tuple():
     from parenthetics import eval_parens
     with pytest.raises(TypeError):
         eval_parens(('(', ')'))
+
+
+def test_string_no_parens():
+    """Test dequeue on empty queue raises error."""
+    from parenthetics import eval_parens
+    with pytest.raises(ValueError):
+        eval_parens('cake')
