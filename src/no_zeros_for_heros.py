@@ -2,7 +2,7 @@
 
 Kata: No zeros for heros
 
-#1 Best Practices Solution by zebulan, 文刀七禾页, Bestesterer
+#1 Best Practices Solution by zebulan, Bestesterer
 
 def no_boring_zeros(n):
     try:

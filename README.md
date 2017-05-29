@@ -37,8 +37,15 @@ Solutions and tests for code katas
 - **Tests**: `test_pairing-brackets.py`
 - **URL**: [challenge url](https://www.codewars.com/kata/pairing-brackets/python)
 
+
 **Paul's Misery (7th kyu)**
 
 - **Module**: `pauls_misery.py`
 - **Tests**: `test_pauls_misery.py`
 - **URL**: [challenge url](http://www.codewars.com/kata/pauls-misery/train/python)
+
+**Proper Parenthetics***
+
+- **Module**: `parenthetics.py`
+- **Tests**: `test_parenthetics.py`
+- **URL**: [challenge url](https://codefellows.github.io/sea-python-401d6/assignments/proper_parenthetics.html)
