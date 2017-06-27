@@ -7,7 +7,7 @@ def eval_parens(user_string):
     print('input type:', type(user_string))
     if type(user_string) != str:
         raise TypeError('Please enter a string.')
-    if '(' not in user_string or ')' not in user_string:
+    if '(' not in user_string and ')' not in user_string:
         raise ValueError('No parentheses in the string.')
     parens_stack = Stack()
     for char in user_string:
