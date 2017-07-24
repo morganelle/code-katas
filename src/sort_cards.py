@@ -33,7 +33,7 @@ from priority_que import PriorityQ
 def sort_cards(cards):
     """Return a list of sorted cards."""
     priority_q = PriorityQ()
-    face_cards = {'A': 1, 'J': 11, 'Q': 12, 'K': 13}
+    face_cards = {'A': 1, 'T': 10, 'J': 11, 'Q': 12, 'K': 13}
     for card in cards:
         try:
             deck_priority = int(card)
