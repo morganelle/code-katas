@@ -61,3 +61,11 @@ Solutions and tests for code katas
 - **Notes**: I used string formatting to produce the pyramid side view and learned some new parameters.
 I would like to refactor my pyramid above view to be more performant and elegant. I used ternary operators
 to calculate the stone counts.
+
+
+**Sort a Deck of Cards***
+
+- **Module**: `sort_cards.py`
+- **Tests**: `test_sort_cards.py`
+- **URL**: [challenge url](https://www.codewars.com/kata/56f399b59821793533000683)
+- **Notes**: I used a pared-down version of a priority queue data structure built in partnership with Chris Hudson to sort a deck of cards. I used numeric values of cards as a priority and created a dictionary of face cards as keys with priorities as their values.
