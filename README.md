@@ -51,3 +51,13 @@ Solutions and tests for code katas
 - **Tests**: `test_parenthetics.py`
 - **URL**: [challenge url](https://codefellows.github.io/sea-python-401d6/assignments/proper_parenthetics.html)
 - **Notes**: I used the stack data structure on this problem. I decided to rebuild it instead of using what we'd built this week because I wanted extra practice. I solved a similar kata on Day of Code without using the stack (Pairing Brackets), and I think this solution is a lot more robust and interesting.
+
+
+**String Pyramid***
+
+- **Module**: `string_pyramid.py`
+- **Tests**: `test_string_pyramid.py`
+- **URL**: [challenge url](http://www.codewars.com/kata/5797d1a9c38ec2de1f00017b/)
+- **Notes**: I used string formatting to produce the pyramid side view and learned some new parameters.
+I would like to refactor my pyramid above view to be more performant and elegant. I used ternary operators
+to calculate the stone counts.
