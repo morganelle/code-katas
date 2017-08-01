@@ -69,3 +69,11 @@ to calculate the stone counts.
 - **Tests**: `test_sort_cards.py`
 - **URL**: [challenge url](https://www.codewars.com/kata/56f399b59821793533000683)
 - **Notes**: I used a pared-down version of a priority queue data structure built in partnership with Chris Hudson to sort a deck of cards. I used numeric values of cards as a priority and created a dictionary of face cards as keys with priorities as their values.
+
+
+**Find the unique string***
+
+- **Module**: `unique_chars.py`
+- **Tests**: `test_unique_chars.py`
+- **URL**: [challenge url](https://www.codewars.com/kata/585d8c8a28bc7403ea0000c3)
+- **Notes**: My solution uses the remove method to elimate spaces and converts each string to a set as it is iterated cover to ensure duplicate characters are eliminated.
