@@ -77,3 +77,11 @@ to calculate the stone counts.
 - **Tests**: `test_unique_chars.py`
 - **URL**: [challenge url](https://www.codewars.com/kata/585d8c8a28bc7403ea0000c3)
 - **Notes**: My solution uses the remove method to elimate spaces and converts each string to a set as it is iterated cover to ensure duplicate characters are eliminated.
+
+
+**Running Average***
+
+- **Module**: `running_average.py`
+- **Tests**: `test_running_average.py`
+- **URL**: [challenge url](https://www.codewars.com/kata/running-average)
+- **Notes**: I developed two solutions, one with a class containing a __call__ method and another with a local data collection and function.
