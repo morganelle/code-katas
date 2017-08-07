@@ -85,3 +85,12 @@ to calculate the stone counts.
 - **Tests**: `test_running_average.py`
 - **URL**: [challenge url](https://www.codewars.com/kata/running-average)
 - **Notes**: I developed two solutions, one with a class containing a __call__ method and another with a local data collection and function.
+
+
+**Original Number***
+
+- **Module**: `original_number.py`
+- **Tests**: `test_original_number.py`
+- **URL**: [challenge url](https://www.codewars.com/kata/5959b637030042889500001d)
+- **Notes**: I created a list of single characters that were ordered. My solution iterates through the list, counts the occurrences of each character, appends a numeric character to a list, then deletes the letters of an entire word for as many counts of the character there were. Finally, the list of numeric characters is sorted and turned into a single string.
+
