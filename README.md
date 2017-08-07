@@ -77,3 +77,12 @@ to calculate the stone counts.
 - **Tests**: `test_unique_chars.py`
 - **URL**: [challenge url](https://www.codewars.com/kata/585d8c8a28bc7403ea0000c3)
 - **Notes**: My solution uses the remove method to elimate spaces and converts each string to a set as it is iterated cover to ensure duplicate characters are eliminated.
+
+
+**Original Number***
+
+- **Module**: `original_number.py`
+- **Tests**: `test_original_number.py`
+- **URL**: [challenge url](https://www.codewars.com/kata/5959b637030042889500001d)
+- **Notes**: I created a list of single characters that were ordered. My solution iterates through the list, counts the occurrences of each character, appends a numeric character to a list, then deletes the letters of an entire word for as many counts of the character there were. Finally, the list of numeric characters is sorted and turned into a single string.
+
