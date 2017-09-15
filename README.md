@@ -102,3 +102,11 @@ to calculate the stone counts.
 - **URL**: [challenge url](https://www.codewars.com/kata/5539fecef69c483c5a000015)
 - **Notes**: After exploring various sieve solutions to identify prime numbers, I utilized the following code to determine whether a given number was prime (https://stackoverflow.com/questions/18833759/python-prime-number-checker)
 
+
+**Multiples of 3 and 5**
+
+- **Module**: `sum_three_five.py`
+- **Tests**: `test_sum_three_five.py`
+- **URL**: [challenge url](https://www.codewars.com/kata/multiples-of-3-and-5/python)
+- **Notes**: My solution concatenates two list comprehensions, with one containing all the multiples of three and and the other multiples of five under the parameter number. The concatenated list is converted to a set to remove duplicate numbers that have both three and five as factors, and then the set is summed.
+
