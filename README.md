@@ -45,7 +45,7 @@ Solutions and tests for code katas
 - **URL**: [challenge url](http://www.codewars.com/kata/pauls-misery/train/python)
 
 
-**Proper Parenthetics***
+**Proper Parenthetics**
 
 - **Module**: `parenthetics.py`
 - **Tests**: `test_parenthetics.py`
@@ -53,7 +53,7 @@ Solutions and tests for code katas
 - **Notes**: I used the stack data structure on this problem. I decided to rebuild it instead of using what we'd built this week because I wanted extra practice. I solved a similar kata on Day of Code without using the stack (Pairing Brackets), and I think this solution is a lot more robust and interesting.
 
 
-**String Pyramid***
+**String Pyramid**
 
 - **Module**: `string_pyramid.py`
 - **Tests**: `test_string_pyramid.py`
@@ -63,7 +63,7 @@ I would like to refactor my pyramid above view to be more performant and elegant
 to calculate the stone counts.
 
 
-**Sort a Deck of Cards***
+**Sort a Deck of Cards**
 
 - **Module**: `sort_cards.py`
 - **Tests**: `test_sort_cards.py`
@@ -71,7 +71,7 @@ to calculate the stone counts.
 - **Notes**: I used a pared-down version of a priority queue data structure built in partnership with Chris Hudson to sort a deck of cards. I used numeric values of cards as a priority and created a dictionary of face cards as keys with priorities as their values.
 
 
-**Find the unique string***
+**Find the unique string**
 
 - **Module**: `unique_chars.py`
 - **Tests**: `test_unique_chars.py`
@@ -79,7 +79,7 @@ to calculate the stone counts.
 - **Notes**: My solution uses the remove method to elimate spaces and converts each string to a set as it is iterated cover to ensure duplicate characters are eliminated.
 
 
-**Running Average***
+**Running Average**
 
 - **Module**: `running_average.py`
 - **Tests**: `test_running_average.py`
@@ -87,10 +87,18 @@ to calculate the stone counts.
 - **Notes**: I developed two solutions, one with a class containing a __call__ method and another with a local data collection and function.
 
 
-**Original Number***
+**Original Number**
 
 - **Module**: `original_number.py`
 - **Tests**: `test_original_number.py`
 - **URL**: [challenge url](https://www.codewars.com/kata/5959b637030042889500001d)
 - **Notes**: I created a list of single characters that were ordered. My solution iterates through the list, counts the occurrences of each character, appends a numeric character to a list, then deletes the letters of an entire word for as many counts of the character there were. Finally, the list of numeric characters is sorted and turned into a single string.
+
+
+**Backwards Read Primes**
+
+- **Module**: `backwards_prime.py`
+- **Tests**: `test_backwards_prime.py`
+- **URL**: [challenge url](https://www.codewars.com/kata/5539fecef69c483c5a000015)
+- **Notes**: After exploring various sieve solutions to identify prime numbers, I utilized the following code to determine whether a given number was prime (https://stackoverflow.com/questions/18833759/python-prime-number-checker)
 
